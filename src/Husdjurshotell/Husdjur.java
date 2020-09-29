@@ -12,7 +12,6 @@ public class Husdjur {
     //Instansvariabler
     String name;
     double weight;
-    Hund hund;
 
     //Konstruktor
     public Husdjur(String name, double weight){
@@ -24,10 +23,5 @@ public class Husdjur {
     public String getName(){
         return name;
     }
-
-    public Hund getHund(){
-        return hund;
-    }
-
 
 }
